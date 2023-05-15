@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+#principal {
+    width: 90%;
+    /*height: 100vh;
+    background: lightcoral;*/
+    margin: 0 auto;     /*centralizar a pagina na horizontal 0 auto; centralizar a pagina na vertical auto 0*/
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    /*background-color: aquamarine;*/
+}
+
+#menu ul {      /*dentro do menu encontrar a opção ul*/
+    list-style-type: none;      /*alterar ou tirar os bullets da lista ul*/
+}
+
+#menu ul li {
+    display: inline-block;      /*colocar o menu na horizontal*/
+    width: 15%;
+    text-align: center;
+    line-height: 50px;          /*se a altura da linha for igual a linha da caixa sempre tem centralização vertical*/
+}
+
+#menu ul li:hover {
+    /*background-color: white;*/
+    border-top: black solid 2px;
+}
+
+a {
+    color: black;
+    text-decoration: none;      /*tirar o hiperlink (sublinhado)*/
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+#esquerda {
+    width: 75%;
+    min-height: 200px;
+    /*background-color: darkgray;*/
+    display: inline-block;
+    float: left;
+}
+
+#direita {
+    width: 24%;
+    min-height: 200px;
+    /*background-color: darkgray;*/
+    display: inline-block;
+    float: right;
+}
+
+#ref {
+    float: right;
+    width: 30%;
+    background-color: chartreuse;
+    padding-left: 20px;     /*Afastar mais das outras coisas*/
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
